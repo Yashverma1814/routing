@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+.nav{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-decoration: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

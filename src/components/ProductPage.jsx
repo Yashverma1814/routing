@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import { Navbar } from './Navbar';
 
 
 export const ProductPage = () => {
@@ -18,6 +19,7 @@ export const ProductPage = () => {
     }, [])
     return (
         <div>
+            <Navbar />
             <h2>All Products</h2>
             <div style={{display:'grid',gridTemplateColumns:"repeat(4,1fr)"}}>
             {
